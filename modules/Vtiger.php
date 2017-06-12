@@ -26,7 +26,7 @@ $languageStrings = array(
 	'Medium' => 'Μεσαία',
 	// Footer
 	'APPTITLE' => 'Vtiger CRM',
-	'POWEREDBY'=> 'Βασισμένο  vtiger CRM',
+	'POWEREDBY'=> 'Βασισμένο στο vtiger CRM',
 	'LBL_READ_LICENSE' => 'Άδεια Χρήσης',
 	'LBL_PRIVACY_POLICY' => 'Πολιτική Προσωπικών Δεδομένων',
 
@@ -98,12 +98,12 @@ $languageStrings = array(
 	'LBL_COMPOSE_EMAIL_WARNING' => ' Προσοχή: το email σας μπορεί να καταλήξει στα spam. Προσθέστε το Vtiger ως πιστοποιημένο αποστολέα στο domain σας. Μάθετε περισσότερα',
 
 	// Common Link Labels
-'LBL_REARRANGE_DASHBOARD_TABS' => 'Rearrange Tabs',	
-'LBL_DONE' => 'Done',
-	'LBL_DELETE_DASHBOARD_TAB' =>'Delete Tab',
-	'LBL_DASHBOARD_TAB_ALREADY_EXIST' => 'Tab Name Already Exist',
-	'LBL_TABS_LIMIT_EXCEEDED' => 'Sorry! Can\'t add more than 10 tabs',
-	'LBL_TODOS' => 'Tasks',
+'LBL_REARRANGE_DASHBOARD_TABS' => 'Ανατοποθέτηση Καρτελών',	
+'LBL_DONE' => 'Ολοκληρώθηκε',
+	'LBL_DELETE_DASHBOARD_TAB' =>'Διαγραφή Καρτέλας',
+	'LBL_DASHBOARD_TAB_ALREADY_EXIST' => 'Η ονομασία για την καρτέλα υπάρχει ήδη',
+	'LBL_TABS_LIMIT_EXCEEDED' => 'Συγγνώμη! Δεν μπορείτε να προσθέσετε πάνω απ 10 καρτέλες',
+	'LBL_TODOS' => 'Εργασίες',
 
 'LBL_LAST_VIEWED_RECORDS' => 'Τελευταίες Προβολές',
 	'LBL_DASHBOARD' => 'Πίνακας Γραφημάτων',
@@ -125,17 +125,17 @@ $languageStrings = array(
 	'LBL_DISPLAY_MEDIUMTYPE' => 'Μεσαία',
 	'LBL_DISPLAY_NARROWTYPE' => 'Στενής',
 	'LBL_TAG_THIS_RECORD' => 'Καρφιτσώστε αυτή την εγγραφή',
-'LBL_SAME_TAG_EXISTS' => 'Duplicate tag exist',
-'LBL_MAKE_PUBLIC' => 'Make Public'
+'LBL_SAME_TAG_EXISTS' => 'Υπάρχει διπλότυπη ετικέτα',
+'LBL_MAKE_PUBLIC' => 'Μετατροπή ως Δημόσιο'
 	'LBL_PAGE' => 'Σελίδα',
 	'LBL_LISTVIEW_PAGE_JUMP' => 'Προσπεράστε σελίδα',
 	'LBL_PROFILE_PASSWORD' => 'Προφίλ / Κωδικός',
 
-'LBL_INFO' => 'Info',
-	'LBL_CANT_MOVE_FROM_PUBLIC_TO_PRIVATE' => 'Cannot able to move from Public tag to Private tag.',
-	'LBL_EDIT_TAG'=>'Edit Tag',
-	'LBL_NO_TAG_EXISTS' => 'No Tag Exists' ,
-	'LBL_RELATED_USERS' => 'Related Users',
+'LBL_INFO' => 'Πληροφορίες',
+	'LBL_CANT_MOVE_FROM_PUBLIC_TO_PRIVATE' => 'Δεν είναι δυνατή η μετακίνηση από Δημόσια σε Ιδιωτική ετικέτα.',
+	'LBL_EDIT_TAG'=>'Επεξεργασία Ετικέτας',
+	'LBL_NO_TAG_EXISTS' => 'Δεν υπάρχει Ετικέτα' ,
+	'LBL_RELATED_USERS' => 'Σχετιζόμενοι Χρήστες',
 
 
 	// Common Fields
@@ -154,7 +154,7 @@ $languageStrings = array(
 
 	// Detail View
 
-'LBL_HISTORY' => 'History',
+'LBL_HISTORY' => 'Ιστορικό',
 	'LBL_UPDATES' => 'Ενημερώσεις',
 	'LBL_SHOW_FULL_DETAILS' => 'Πλήρεις Λεπτομέρειες',
 	'LBL_SUMMARY_DETAILS' => 'Περιληπτικά Στοιχεία',
@@ -163,9 +163,9 @@ $languageStrings = array(
 	'LBL_ACTIVITIES' => 'Δραστηριότητες',
 	'LBL_NO_PENDING_ACTIVITIES' => 'Καμμία εκκρεμής δραστηριότητα',
 	'LBL_SUMMARY' => 'Περίληψη',
-'LBL_KEY_FIELD' => 'Key Field',
+'LBL_KEY_FIELD' => 'Πεδίο Κλειδί',
 	'LBL_DETAILS' => 'Λεπτομέρειες',
-'LBL_NAME_EMAIL' => 'Name and Email',
+'LBL_NAME_EMAIL' => 'Όνομα και Email',
 
 	// Popup window
 	'LBL_SEARCH_FOR' => 'Αναζήτηση για',
@@ -185,14 +185,14 @@ $languageStrings = array(
 	'LBL_SIMPLE_FORM' => 'Απλή Φόρμα',
 
 	//Recent Comments
-'LBL_IS_REMOVED' => 'is Removed',	
+'LBL_IS_REMOVED' => 'Αφαιρέθηκε',	
 'LBL_ADD_YOUR_COMMENT_HERE' => 'Αφήστε Το Σχόλιο σας εδώ....',
 	'LBL_REASON_FOR_CHANGING_COMMENT' => 'Αιτία τροποποίησης σχόλιου',
 	'LBL_REPLY' => 'Απάντηση',
 	'LBL_VIEW_THREAD' => 'Δείτε ',
 	'LBL_NO_COMMENTS' => 'Κανένα Σχόλιο',
 	'LBL_REPLIES' => 'Απαντήσεις',
-'LBL_REPLY_ALL' => 'Reply all',
+'LBL_REPLY_ALL' => 'Απάντηση προς Όλους',
 
 	//Translation for all modules
 	'Accounts' => 'Οργανισμοί',
