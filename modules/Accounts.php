@@ -16,6 +16,7 @@
  *  -- Dimitris Anagnostou
  *  -- Panos Panagiotopoulos (https://github.com/mechpanos/)
  *  -- More: https://github.com/mechpanos/vtiger7-greek-translation/graphs/contributors
+ *  -- and https://github.com/cerebrux/vtiger6-greek-translation/graphs/contributors
  *************************************************************************************/
 $languageStrings = array(
 	// Basic Strings
