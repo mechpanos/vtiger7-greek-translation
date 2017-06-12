@@ -219,9 +219,9 @@ $languageStrings = array(
 	'Invoice'=>'Τιμολόγιο',
 	'MailManager' => 'Διαχείρηση Ηλ. Ταχυδρομείου',
 	'Activities' => 'Δραστηριότητες',
-'Portal' => 'Our Sites',
-	'Email Templates' => 'Email Templates',
-	'Recycle Bin' => 'Recycle Bin',
+'Portal' => 'Οι Ιστοσελίδες μας',
+	'Email Templates' => 'Πρότυπα Email',
+	'Recycle Bin' => 'Κάδος Απορριμάτων',
 
 
 	//Basic String Translation
@@ -327,15 +327,15 @@ $languageStrings = array(
 	'LBL_COPY_SHIPPING_ADDRESS' => 'Διεύθυνση Αποστολής',
 	'LBL_COPY_BILLING_ADDRESS' => 'Διεύθυνση Πληρωμής',
 
-'LBL_OVERALL_DISCOUNT' => 'Overall Discount',
-	'LBL_CHARGES' => 'Charges',
-	'LBL_CHARGES_TOTAL' => 'Charges Total',
-	'LBL_TAXES_ON_CHARGES' => 'Taxes On Charges',
-	'LBL_DEDUCTED_TAXES' => 'Deducted Taxes',
-	'LBL_DEDUCTED_TAXES_TOTAL' => 'Deducted Taxes Total',
-	'LBL_DEFAULT' => 'Default',
-	'LBL_ITEM' => 'Item',
-	'LBL_ADD_DASHBOARD' =>'Add dashboard',
+'LBL_OVERALL_DISCOUNT' => 'Συνολική Έκπτωση',
+	'LBL_CHARGES' => 'Χρεώσεις',
+	'LBL_CHARGES_TOTAL' => 'Συνολικές Χρεώσεις',
+	'LBL_TAXES_ON_CHARGES' => 'Φόροι επί των Χρεώσεων',
+	'LBL_DEDUCTED_TAXES' => 'Μειωμένοι Φόροι',
+	'LBL_DEDUCTED_TAXES_TOTAL' => 'Συνολικοί Μειωμένοι Φόροι',
+	'LBL_DEFAULT' => 'Προεπιλογή',
+	'LBL_ITEM' => 'Στοιχείο',
+	'LBL_ADD_DASHBOARD' =>'Προσθήκη Κέντρου Ελέγχου',
 	//DetailView Actions
 	'LBL_CREATE' => 'Δημιουργία',
 	'LBL_GENERATE' => 'Δημιουργία',
@@ -405,11 +405,11 @@ $languageStrings = array(
 	'Notebook' => 'Σημειωματάριο',
 	'LBL_RESULT_FOR_THE_TAG' => 'Αποτέλεσμα για την Ετικέτα',
 
-'LBL_ALL_USERS' => 'All Users',
-	'LBL_BOTH' => 'Both',
-	'LBL_SHOW' => 'Show',
+'LBL_ALL_USERS' => 'Όλοι οι Χρήστες',
+	'LBL_BOTH' => 'Και τα δύο',
+	'LBL_SHOW' => 'Προβολή',
 	'LBL_MY' => 'My',
-	'LBL_SELECT_DATE_RANGE' => 'Select Date Range',
+	'LBL_SELECT_DATE_RANGE' => 'Επιλέξτε Περιοχή Ημερομηνίας',
 
 
 	// Basic Strings- custom view
@@ -474,8 +474,8 @@ $languageStrings = array(
 	'LBL_BETWEEN' => 'Μεταξύ',
 	'LBL_IS_EMPTY'=> 'Κενό',
 
-	'LBL_IS_NOT_EMPTY' => 'is not empty',
-	'LBL_APPROVE' => 'Approve',
+	'LBL_IS_NOT_EMPTY' => 'δεν είναι κενό',
+	'LBL_APPROVE' => 'Έγκριση',
 
 	//Detail view summary widgets
 	'LBL_OWNER' => 'Ιδιοκτήτης',
@@ -505,10 +505,10 @@ $languageStrings = array(
 	'Open Tickets' => 'Ανοιχτά Δελτία',
 	'Funnel Amount' => 'Συνολικό Ποσό ανά Επίπεδο Πωλήσεων',
 
-'Key Metrics' => 'Key Metrics',
-	'Mini List' => 'Mini List',
-	'Tag Cloud' => 'Tag Cloud',
-	'Notebook' => 'Notebook',
+'Key Metrics' => 'Σημαντικές Μετρήσεις',
+	'Mini List' => 'Σύντομη Λίστα',
+	'Tag Cloud' => 'Ετικετοσύννεφο',
+	'Notebook' => 'Σημειωματάριο',
 
 	//Exports strings
 	'LBL_EXPORT_ALL_DATA' => 'Εξαγωγή Όλων των Δεδομένων',
@@ -519,8 +519,8 @@ $languageStrings = array(
 	'LBL_CAN_NOT_REMOVE_DEFAULT_WIDGET' => 'Το προεπιλεγμένο widget δεν αφαιρείται',
 	'LBL_CUSTOM_VIEW_NAME_DUPLICATES_EXIST' => 'Αυτό το φίλτρο υπάρχει ήδη',
 
-'LBL_TYPE_AND_SEARCH' => 'Type and Search',
-		'LBL_EXPORT_CURRENCY_TOOLTIP_TEXT'=>'For exporting Currency values in Line items, Vtiger will use this setting to export as this currency. Any currency values outside the line items tables, will be exported as in User\'s preferred currency (selected in \'My Preferences\')',
+'LBL_TYPE_AND_SEARCH' => 'Πληκτρολογήστε και Αναζητήστε',
+		'LBL_EXPORT_CURRENCY_TOOLTIP_TEXT'=>'Για εξαγωγή των τιμών Νομίσματος For exporting Currency values in Line items, Vtiger will use this setting to export as this currency. Any currency values outside the line items tables, will be exported as in User\'s preferred currency (selected in \'My Preferences\')',
 		'LBL_EXPORT_LINEITEM_CURRENCY'=>'Choose Currency (For Line Item Values)',
 		'LBL_EXPORT_USER_CURRENCY' =>'My preferred Currency',
 		'LBL_EXPORT_RECORD_CURRENCY'=>'Currency specified in Record',
