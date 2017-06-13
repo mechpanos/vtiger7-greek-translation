@@ -520,21 +520,21 @@ $languageStrings = array(
 	'LBL_CUSTOM_VIEW_NAME_DUPLICATES_EXIST' => 'Αυτό το φίλτρο υπάρχει ήδη',
 
 'LBL_TYPE_AND_SEARCH' => 'Πληκτρολογήστε και Αναζητήστε',
-		'LBL_EXPORT_CURRENCY_TOOLTIP_TEXT'=>'Για εξαγωγή των τιμών Νομίσματος For exporting Currency values in Line items, Vtiger will use this setting to export as this currency. Any currency values outside the line items tables, will be exported as in User\'s preferred currency (selected in \'My Preferences\')',
-		'LBL_EXPORT_LINEITEM_CURRENCY'=>'Choose Currency (For Line Item Values)',
+		'LBL_EXPORT_CURRENCY_TOOLTIP_TEXT'=>'Για εξαγωγή των τιμών Νομίσματος στα αντικείμενα των γραμμών, το Vtiger θα χρησιμοποιήσει αυτή την ρύθμιση εκτελώντας εξαγωγή ώς το παρόν Νόμισμα. Οποιαδήποτε τιμή νομίσματος  εκτός των πινάκων των αντικειμένων της γραμμής, θα εξαχθεί σύμφωνα με το προτιμώμενο νόμισμα του Χρήστη, όπως έχει ορισθεί από τις Προτιμήσεις',
+		'LBL_EXPORT_LINEITEM_CURRENCY'=>'Επιλέξτε ΝόμισμαChoose Currency (For Line Item Values)',
 		'LBL_EXPORT_USER_CURRENCY' =>'My preferred Currency',
 		'LBL_EXPORT_RECORD_CURRENCY'=>'Currency specified in Record',
-	'LBL_EXPORT_FORMAT' => 'Export format',
-	'LBL_EXPORT_DATA' => 'Export Data',
+	'LBL_EXPORT_FORMAT' => 'Μορφή εξαγωγής',
+	'LBL_EXPORT_DATA' => 'Εξαγωγή Δεδομένων',
 
-	'LBL_CUSTOMIZE' => 'Customize',
+	'LBL_CUSTOMIZE' => 'Προσαρμογή',
 
 	'LBL_ADD_MANAGE_MODULES' => 'Προσθήκη / Διαχείριση Αρθρωμάτων',
 
 	'LBL_CUSTOMIZE_MAIN_MENU' => 'Εξατομίκευση του Μενού',
-'LBL_LABELS' => 'Labels',
-	'LBL_WORKFLOWS' => 'Workflows',
-	'LBL_PICKLIST' => 'Picklists',
+'LBL_LABELS' => 'Τίτλος',
+	'LBL_WORKFLOWS' => 'Ροές Εργασιών',
+	'LBL_PICKLIST' => 'Λίστες Επιλογών',
 
 	// Added Common Keys for all modules
 	'Account Name' => 'Όνομα Οργανισμού',
@@ -691,7 +691,7 @@ $languageStrings = array(
 	'LBL_FOLDER_SAVED' => 'Ο Φάκελος Αποθηκεύτηκε',
 	'LBL_FOLDER_EXISTS' => 'Ο Φάκελος Υπάρχει ήδη',
 	'LBL_FOLDER_DELETED' => 'Ο Φάκελος Διαγράφτηκε',
-'LBL_EDIT_FOLDER' => 'Edit Folder',
+'LBL_EDIT_FOLDER' => 'Επεξεργασία Φακέλου',
 
 	'Lead Source' => 'Πηγή Προοπτικής',
 	'Mobile' => 'Κινητό Τηλέφωνο',
@@ -710,7 +710,7 @@ $languageStrings = array(
 	'Product Name' => 'Όνομα Προϊόντος',
 	'Rating' => 'Κατάταξη',
 
-	'Related To'=>'Σχετίζετε με',
+	'Related To'=>'Σχετίζεται με',
 	'Type' => 'Τύπος',
 
 	'Reviewed'=>'Ελέγχθηκε',
@@ -757,7 +757,7 @@ $languageStrings = array(
 	'LBL_Dec' => 'Δεκ',
 
 	'LBL_CALENDAR_SETTINGS' => 'Ρυθμίσεις Ημερολογίου',
-'Reminder Interval' => 'Popup Reminder Interval',
+'Reminder Interval' => 'Διάστημα Αναδυόμενων Υπενθυμίσεων',
 
 	//Translations used in inventory modules for address
 	'SINGLE_Accounts' => 'Οργανισμός',
@@ -802,7 +802,7 @@ $languageStrings = array(
 	'LBL_OPERATION_NOT_PERMITTED' => 'Η ενέργεια δεν Επιτρέπετε',
     'LBL_MERGE' => 'Συγχώνευση',
 
-'LBL_FIND_DUPLICATES' => 'Find Duplicates',
+'LBL_FIND_DUPLICATES' => 'Εύρεση Διπλοτύπων',
 
 	'LBL_MERGING_CRITERIA_SELECTION' => 'Επιλογή Κριτηρίων Συγχώνευσης',
 	'LBL_AVAILABLE_FIELDS' => 'Διαθέσιμα Πεδία',
@@ -885,70 +885,70 @@ $languageStrings = array(
 	'LBL_MARK_AS_COMPLETED' => 'Mark As Completed',
 	'LBL_SMS_MAX_CHARACTERS_ALLOWED' => 'Maximum 160 characters are allowed for text message',
 	'LBL_HIDE_COMPLETED_EVENTS' => 'Hide Completed Calendar Events',
-	'LBL_SETUP_WEBFORMS' => 'Setup Webforms',
-	'LBL_SPECIAL_OPTIONS' => 'Special Options',
-	'LBL_PARENT_OWNER' => 'Parent Record Owner',
+	'LBL_SETUP_WEBFORMS' => 'Ρύθμιση Δικτυακών Φορμών',
+	'LBL_SPECIAL_OPTIONS' => 'Ειδικές Επιλογές',
+	'LBL_PARENT_OWNER' => 'Ιδιοκτήτης Γονικής Εγγραφής',
 	'LBL_PASSWORD_LINK_EXPIRED_OR_INVALID_PASSWORD' => 'Password link has expired or you have entered invalid password',
 
 	// Recurring Invoice
-	'Half-Yearly' => 'Half-Yearly',
-	'LBL_FULLSCREEN' => 'Full Screen',
-	'LBL_SETUP_WEBFORMS' => 'Setup Webforms',
-	'LBL_MODULE_DISABLED' => ' Module is disabled',
-	'Organization Name' => 'Organization Name',
-	'LBL_SOCIAL_TWITTER_WIDGET' => 'Twitter Activity',
-	'LBL_WEEK' => 'Week',
+	'Half-Yearly' => 'Εξαμηνιαίως',
+	'LBL_FULLSCREEN' => 'Πλήρης Οθόνη',
+	'LBL_SETUP_WEBFORMS' => 'Ρύθμιση Δικτυακών Φορμών',
+	'LBL_MODULE_DISABLED' => ' Το Άρθρωμα είναι Απενεργοποιημένο',
+	'Organization Name' => 'Επωνυμία Οργανισμού',
+	'LBL_SOCIAL_TWITTER_WIDGET' => 'Δραστηριότητα Twitter',
+	'LBL_WEEK' => 'Εβδομάδα',
 	//Convert Lead and Potential
-	'CANNOT_CONVERT' => 'Cannot Convert',
-	'LBL_CONVERT_ERROR_TITLE' => 'Modules Disabled',
-	'LBL_FOLLOWING_ARE_POSSIBLE_REASONS' => 'Possible reasons include:',
-	'LBL_MANDATORY_FIELDS_ARE_EMPTY' => 'Mandatory fields are empty',
+	'CANNOT_CONVERT' => 'Δεν είναι δυνατή η Μετατροπή',
+	'LBL_CONVERT_ERROR_TITLE' => 'Τα Αρθρώματα είναι Απενεργοποιημένα',
+	'LBL_FOLLOWING_ARE_POSSIBLE_REASONS' => 'Οι πιθανοί λόγοι περιλαμβάνουν:',
+	'LBL_MANDATORY_FIELDS_ARE_EMPTY' => 'Υποχρεωτικά πεδία είναι κενά',
 
 	// SMSNotifier Phone Format Warning
-	'LBL_PHONE_FORMAT_WARNING' => 'Please ensure that phone number is in international E.164 format',
-	'LBL_PHONEFORMAT_WARNING_CONTENT' => 'The E.164 number formatting can have a maximum of fifteen digits and are usually written as follows: [+][country code][subscriber number including area code]
-										 For example, to convert a US phone number (415 599 2671) to E.164 format, one would need to add the \'+\' prefix and the country code (which is 1) in front of the number (+1 415 599 2671). In the UK and many other countries internationally, local dialing requires the addition of a 0 in front of the subscriber number. However, to use E.164 formatting, this 0 must be removed. A number such as 020 7183 8750 in the UK would be formatted as +44 20 7183 8750.',
-	'LBL_WARNING' => 'Warning',
-	'LBL_ORIGIN' => 'Origin',
-	'SENT' => 'Sent',
-	'RECEIVED' => 'Received',
-	'QUEUED'=> 'Queued',
-	'FAILED'=> 'Failed',
-	'SAVED' => 'Draft',
+	'LBL_PHONE_FORMAT_WARNING' => 'Παρακαλώ βεβαιωθήτε ότι ο τηλ. αριθμός είναι σε διεθνή μορφή κατά E.164',
+	'LBL_PHONEFORMAT_WARNING_CONTENT' => 'Οι τηλ. αριθμοί σε διεθνή μορφοποίηση  κατά E.164 μπορούν να έχουν 15 ψηφία το μέγιστο και συνήθως γράφονται ως εξής: [+][κωδ. χώρας][αριθμός συμπεριλ. κωδικό περιοχής]
+										 Για παράδειγμα, για μετατροπή ενός ελληνικού τηλ. αριθμού (210 646 9999) σε μορφή E.164, χρειάζεται να προσθέσουμε το πρόθεμα \'+\' και τον κωδικό της χώρας, (που είναι 30) πριν τον τηλ. αριθμό (+30 210 646 9999). Σε πολλά κράτη, χρησιμοποιείται το πρόθεμα 0 για εθνικές κλήσεις. Ωστόσο, για χρήση της διεθνούς μορφής E.164 το πρόθεμα 0 πρέπει να αφαιρεθεί. Έτσι, ένας αριθμός π.χ. 020 7183 8750 στην Βρετανία θα πρέπει να μορφοποιηθεί ως +44 20 7183 8750.',
+	'LBL_WARNING' => 'Προειδοποίηση',
+	'LBL_ORIGIN' => 'Προέλευση',
+	'SENT' => 'Απεσταλμένα',
+	'RECEIVED' => 'Ληφθέντα',
+	'QUEUED'=> 'Σε ουρά',
+	'FAILED'=> 'Αποτυχ. Αποστολή',
+	'SAVED' => 'Πρόχειρα',
 	'MailManager' => 'Mail Manager',
 	'MAILSCANNER' => 'Mail Converter',
-	'LBL_SENDER_NAME' => 'Sender Name',
+	'LBL_SENDER_NAME' => 'Όνομα Αποστολέα',
 	'SMSNotifier'=>'SMS Notifier',
 
-	'Mobile Call' => 'Mobile Call',
-	'LBL_NO_MORE_RESULTS' => 'No more results!',
-	'Related To' => 'Related To',
+	'Mobile Call' => 'Κλήση Κινητού',
+	'LBL_NO_MORE_RESULTS' => 'Δεν υπάρχουν άλλα αποτελέσματα!',
+	'Related To' => 'Σχετίζεται Με',
 
 	// Date Conditions
-	'LBL_LESS_THAN_DAYS_AGO' => 'Less than days ago',
-	'LBL_MORE_THAN_DAYS_AGO' => 'More than days ago',
-	'LBL_IN_LESS_THAN' => 'In less than',
-	'LBL_IN_MORE_THAN' => 'In More than',
-	'LBL_DAYS_AGO' => 'Days ago',
-	'LBL_DAYS_LATER' => 'Days Later',
-	'LBL_LESS_THAN_HOURS_BEFORE' => 'Less than hours before',
-	'LBL_LESS_THAN_HOURS_LATER' => 'Less than hours later',
-	'LBL_MORE_THAN_HOURS_BEFORE' => 'More than hours before',
-	'LBL_MORE_THAN_HOURS_LATER' => 'More than Hours Later',
-	'LBL_INTERNAL_COMMENT' => 'Internal Comment',
-	'LBL_NOTE_EXISTING_ATTACHMENTS_WILL_BE_REPLACED' => 'Note : Existing attachments(images/files) will be replaced',
+	'LBL_LESS_THAN_DAYS_AGO' => 'Λιγότερο από ημέρες πριν',
+	'LBL_MORE_THAN_DAYS_AGO' => 'Περισσότερο από ημέρες πριν',
+	'LBL_IN_LESS_THAN' => 'Σε λιγότερο από',
+	'LBL_IN_MORE_THAN' => 'Σε περισσότερο από',
+	'LBL_DAYS_AGO' => 'Ημέρες πριν',
+	'LBL_DAYS_LATER' => 'Ημέρες αργότερα',
+	'LBL_LESS_THAN_HOURS_BEFORE' => 'Λιγότερο από ώρες πριν',
+	'LBL_LESS_THAN_HOURS_LATER' => 'Λιγότερο από ώρες μετά',
+	'LBL_MORE_THAN_HOURS_BEFORE' => 'Περισσότερο από ώρες πριν',
+	'LBL_MORE_THAN_HOURS_LATER' => 'Περισσότερο από ώρες μετά',
+	'LBL_INTERNAL_COMMENT' => 'Εσωτερικό Σχόλιο',
+	'LBL_NOTE_EXISTING_ATTACHMENTS_WILL_BE_REPLACED' => 'Σημείωση: Οι υπάρχουσες επισυνάψεις (εικόνες/αρχεία) θα αντικατασταθούν',
 
 	//common standard fields
-	'Created By' => 'Created By',
-	'LBL_SEND_PDF_FOR_SIGNING' => 'Send PDF for signing',
-	'LBL_CLICK_TO_EDIT' => 'Click to edit',
-	'LBL_SIGNATURE_BLOCK' => 'Signature',
-	'LBL_INCLUDE_SIGNATURE_INFO' => 'Signature set in My Preferences will be appended to the bottom of the email',
-	'LBL_INCLUDE_SIGNATURE' => 'Include Signature',
+	'Created By' => 'Δημιουργήθηκε Από',
+	'LBL_SEND_PDF_FOR_SIGNING' => 'Αποστολή PDF για υπογραφή',
+	'LBL_CLICK_TO_EDIT' => 'Κάντε Κλικ για Επεξεργασία',
+	'LBL_SIGNATURE_BLOCK' => 'Υπογραφή',
+	'LBL_INCLUDE_SIGNATURE_INFO' => 'Η Υπογραφή που έχετε ορίσει στις Προτιμήσεις θα τοποθετηθεί στο κάτω μέρος του παρόντος email',
+	'LBL_INCLUDE_SIGNATURE' => 'Συμπερίληψη Υπογραφής',
 
 	// module builder created module first block label 
-	'LBL_BASIC_INFORMATION' => 'Basic Information',
-	'LBL_CLICK_HERE'=>'click here',
+	'LBL_BASIC_INFORMATION' => 'Βασικές Πληροφορίες',
+	'LBL_CLICK_HERE'=>'κάντε κλικ εδώ',
 
 	//Recipient preferences labels
 	'LBL_SELCT_EMAIL_RECIPIENTS' => 'Select Email Recipients',
@@ -961,7 +961,7 @@ $languageStrings = array(
 	'LBL_RECIPIENT_SAVE_MESSAGE'=>'Save successful.These preferences will be treated as recipient email addresses when you send email from this module.',
 	'LBL_PREF_RESET_MESSAGE' => 'Your recipient email preferences has been reset!',
 
-	'LBL_COMPANY_DETAILS' => 'Company Details',
+	'LBL_COMPANY_DETAILS' => 'Στοιχεία Εταιρείας',
 	'COMPANY_LOGO_HELP_TEXT' => 'Please upload your lovely company logo. <br>Besides showing your company logo on your CRM,<br>
 									your company name and address details are used in <br>Email Campaigns (required to meet span regulations)<br>
 									and in Quotes.',
